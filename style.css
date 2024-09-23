@@ -43,15 +43,15 @@
 
 .comp1 {
     text-align: center;
-    background-color: rgb(193, 199, 125);
+    background-color: rgb(248, 251, 157);
     padding: 0.5%;
     border-radius: 75px;
-    border: 10px double rgb(1, 1, 1)
+    border: 10px double rgb(1, 1, 1);
 }
 
 .dip1 {
     text-align: center;
-    background-color: rgb(193, 199, 125);
+    background-color: rgb(248, 251, 157);
     padding: 0.5%;
     border-radius: 75px;
     border: 10px double rgb(1, 1, 1);
@@ -59,10 +59,10 @@
 
 .lang1 {
     text-align: center;
-    background-color: rgb(193, 199, 125);
+    background-color: rgb(248, 251, 157);
     padding: 0.5%;
     border-radius: 75px;
-    border: 10px double rgb(1, 1, 1);
+    border: 10px double rgb(0, 0, 0);
 }
 
 .passions {
@@ -127,5 +127,3 @@
     grid-gap: 5px;
     grid-auto-rows: minmax(100px, auto);
 }
-
-

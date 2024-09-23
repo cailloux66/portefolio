@@ -75,9 +75,10 @@
 
 
     <section>
+
         <div>
             <p class="comp1"><b>Mes compétences :</b></p>
-            <ul class="competence">
+            <ul>
 
                 <li>Pédagogue</li>
                 <br>
@@ -86,6 +87,8 @@
                 <li>Super sympathique</li>
 
             </ul>
+        </div>
+        <div>
             <p class="dip1"><b>Diplomes :</b></p>
             <ul>
                 <li>Baccalauréat 2024</li>
@@ -93,7 +96,8 @@
                 <li>Diplome national du brevet 2021</li>
 
             </ul>
-
+        </div>
+        <div>
             <p class="lang1"><b>Langues :</b></p>
             <ul>
                 <li>Francais</li>
@@ -103,6 +107,7 @@
 
             </ul>
         </div>
+
     </section>
 
     <section>
@@ -172,7 +177,7 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>-->
-    
+
     <h1 id="art">Mes actualités :</h1>
 
     <section class="wrapper">
@@ -180,7 +185,8 @@
             <a href="./article1.html" target="_blank">Voir plus</a>
         </article>
 
-        <article><img src="./Image/2004_Baccalauréat_général.pdf.jpg" width="10%" alt="image d'un diplome du Baccalauréat général français">
+        <article><img src="./Image/2004_Baccalauréat_général.pdf.jpg" width="10%"
+                alt="image d'un diplome du Baccalauréat général français">
             <a href="./article2.html" target="_blank">Voir plus</a>
         </article>
 
@@ -194,13 +200,17 @@
     <section>
         <form action="https://api.web3forms.com/submit" method="POST">
 
-
+            <label for="access_key">Nom</label>
             <input type="hidden" name="access_key" value="d0f71db1-e26d-4e4e-b824-3f0a584a3bba">
-
+            
+            <label for="name">.</label>
             <input type="text" name="name" required placeholder="Nom">
+
+            <label for="email">email</label>
             <input type="email" name="email" required placeholder="adresse mail">
             <textarea name="message" required placeholder="Votre message"></textarea>
 
+            <label for="botcheck">botcheck</label>
             <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
 
@@ -222,6 +232,7 @@
                 <form>
 
                     <div>
+                        <label for="choix">Choix 1 :</label>
                         <input type="radio" name="choix" value="option1"> J'accepte de prendre rendez-vous !
                         </label>
                     </div>
@@ -230,10 +241,10 @@
             <div>
                 <legend>
                     <fieldset>
-                        <label for="bouton"></label>
+                        <label for="choix">Choix 2:</label>
                         <input type="radio" name="choix" value="option2"> Je suis intéressé, mais pour des taches
                         différentes
-                        que celles demander !
+                        que celles demandées !
                         <br>
                         <div><label for="radio">Choix 3 :</label>
                             <input type="radio" name="choix" value="option3"> Je ne suis malheureusement pas
